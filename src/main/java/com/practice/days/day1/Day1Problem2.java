@@ -8,9 +8,9 @@ import java.util.HashMap;
 //53587, 53592 -> The right calibration values for string "eighthree" is 83 and
 //for "sevenine" is 79.
 public class Day1Problem2 {
-	
+
 	public static void main(String[] args) {// 55621
-		
+
 		BufferedReader reader;
 		String fileName = "src/main/resources/sample1.txt";
 		try {
@@ -72,6 +72,5 @@ public class Day1Problem2 {
 			e.printStackTrace();
 		}
 	}
-	
 
 }
