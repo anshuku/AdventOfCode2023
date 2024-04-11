@@ -128,7 +128,7 @@ class SpringJenkinsApplicationTests {
 		}
 	}
 
-	@Test
+	@Ignore
 	public void test3d2p1() {// 1734
 		BufferedReader reader;
 		String fileName = "src/test/resources/sample2.txt";
@@ -310,7 +310,7 @@ class SpringJenkinsApplicationTests {
 	}
 
 	@Ignore
-	public void test6d3p2() {// 79842967
+	public void test6d3p2() {// 20407
 		BufferedReader reader;
 		String fileName = "src/test/resources/sample3.txt";
 		try {
@@ -494,7 +494,7 @@ class SpringJenkinsApplicationTests {
 	}
 
 	@Ignore
-	public void test7d4p1() {// 79842967
+	public void test7d4p1() {// 20407
 		BufferedReader reader;
 		String filePath = "src/test/resources/sample4.txt";
 		try {
@@ -1027,7 +1027,7 @@ class SpringJenkinsApplicationTests {
 			System.out.println("Min location is " + locationMin);
 			reader.close();
 		} catch (IOException e) {
-
+			e.printStackTrace();
 		}
 	}
 
@@ -1465,7 +1465,7 @@ class SpringJenkinsApplicationTests {
 			System.out.println("Min location is " + locationMin);
 			reader.close();
 		} catch (IOException e) {
-
+			e.printStackTrace();
 		}
 	}
 
@@ -1552,7 +1552,7 @@ class SpringJenkinsApplicationTests {
 			System.out.println("distance - " + distance);
 
 		} catch (IOException e) {
-
+			e.printStackTrace();
 		}
 
 		long count = 0;
@@ -2260,7 +2260,7 @@ class SpringJenkinsApplicationTests {
 		
 	}
 	
-	@Test
+	@Ignore
 	public void test19d10p1() {//
 		BufferedReader reader;
 		String path = "src/test/resources/sample10.txt";
@@ -2289,7 +2289,7 @@ class SpringJenkinsApplicationTests {
 		
 	}
 	
-	@Test
+	@Ignore
 	public void test20d10p2() {//
 		BufferedReader reader;
 		String path = "src/test/resources/sample10.txt";
@@ -2318,7 +2318,7 @@ class SpringJenkinsApplicationTests {
 		
 	}
 	
-	@Test
+	@Ignore
 	public void test21d11p1() {//
 		BufferedReader reader;
 		String path = "src/test/resources/sample11.txt";

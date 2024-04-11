@@ -12,7 +12,7 @@ public class Day3Problem1 {
 	
 	public static void main(String[] args) {
 		BufferedReader reader;
-		String fileName = "src/test/resources/sample3.txt";
+		String fileName = "src/main/resources/sample3.txt";
 		try {
 			reader = new BufferedReader(new FileReader(fileName));
 			int sum = 0;
