@@ -6,7 +6,8 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Day2Problem2 {
+//
+public class Day2Problem1 {
 	
 	public static void main(String[] args) {
 		BufferedReader reader;

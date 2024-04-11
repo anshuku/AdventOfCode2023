@@ -6,13 +6,13 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-//1734 or 70387
-public class Day2Problem1 {
+//70387
+public class Day2Problem2 {
 	
 	public static void main(String[] args) {
 		
 		BufferedReader reader;
-		String fileName = "src/main/resources/sample2.txt";
+		String fileName = "src/test/resources/sample2.txt";
 		try {
 			reader = new BufferedReader(new FileReader(fileName));
 			String line = reader.readLine();
