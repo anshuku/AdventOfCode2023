@@ -8,9 +8,9 @@ import java.util.Map;
 
 //70387
 public class Day2Problem2 {
-	
+
 	public static void main(String[] args) {
-		
+
 		BufferedReader reader;
 		String fileName = "src/main/resources/sample2.txt";
 		try {
@@ -58,6 +58,5 @@ public class Day2Problem2 {
 			e.printStackTrace();
 		}
 	}
-	
 
 }

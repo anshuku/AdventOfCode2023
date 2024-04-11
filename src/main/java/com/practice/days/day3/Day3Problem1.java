@@ -9,7 +9,7 @@ import java.util.List;
 
 //532445
 public class Day3Problem1 {
-	
+
 	public static void main(String[] args) {
 		BufferedReader reader;
 		String fileName = "src/main/resources/sample3.txt";
@@ -55,9 +55,8 @@ public class Day3Problem1 {
 		} catch (IOException e) {
 			throw new RuntimeException(e);
 		}
-		
+
 	}
-	
 
 	public static boolean checkSymbolNearForNum(int num, int lineNum, int begin, int end, List<List<String>> numLists,
 			List<String> numList) {
@@ -89,7 +88,5 @@ public class Day3Problem1 {
 		}
 		return symbolExists;
 	}
-
-	
 
 }

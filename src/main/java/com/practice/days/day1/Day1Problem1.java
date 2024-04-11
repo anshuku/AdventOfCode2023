@@ -6,9 +6,9 @@ import java.io.IOException;
 
 //55621
 public class Day1Problem1 {
-	
+
 	public static void main(String[] args) {// 55621
-		
+
 		BufferedReader reader;
 		String fileName = "src/main/resources/sample1.txt";
 
@@ -35,6 +35,5 @@ public class Day1Problem1 {
 			e.printStackTrace();
 		}
 	}
-	
 
 }

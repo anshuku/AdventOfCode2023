@@ -15,7 +15,7 @@ import com.practice.days.day7.CardComparatorJok;
 
 //250665248
 public class Day7Problem2 {
-	
+
 	public static void main(String[] args) {
 		BufferedReader reader;
 		String path = "src/main/resources/sample7.txt";

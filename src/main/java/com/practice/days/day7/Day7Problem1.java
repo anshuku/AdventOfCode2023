@@ -15,7 +15,7 @@ import com.practice.days.day7.CardComparator;
 
 //250120186
 public class Day7Problem1 {
-	
+
 	public static void main(String[] args) {
 
 		BufferedReader reader;
@@ -160,5 +160,5 @@ public class Day7Problem1 {
 		}
 		System.out.println("product " + product);
 	}
-	
+
 }

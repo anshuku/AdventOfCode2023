@@ -12,7 +12,7 @@ import java.util.Set;
 
 //30 mins - 78775051
 public class Day5Problem2 {
-	
+
 	public static void main(String[] args) {
 		BufferedReader reader;
 		String filePath = "src/main/resources/sample5.txt";

@@ -10,7 +10,7 @@ import java.util.Set;
 
 //20407
 public class Day4Problem1 {
-	
+
 	public static void main(String[] args) {
 		BufferedReader reader;
 		String filePath = "src/main/resources/sample4.txt";
@@ -69,6 +69,5 @@ public class Day4Problem1 {
 			e.printStackTrace();
 		}
 	}
-	
 
 }

@@ -12,7 +12,7 @@ import java.util.Set;
 
 //227653707
 public class Day5Problem1 {
-	
+
 	public static void main(String[] args) {
 		BufferedReader reader;
 		String filePath = "src/main/resources/sample5.txt";
@@ -430,8 +430,7 @@ public class Day5Problem1 {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
+
 	}
-	
 
 }

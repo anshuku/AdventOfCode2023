@@ -8,7 +8,7 @@ import java.util.List;
 
 //138915
 public class Day6Problem1 {
-	
+
 	public static void main(String[] args) {
 		BufferedReader reader;
 		String path = "src/main/resources/sample6.txt";

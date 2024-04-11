@@ -6,7 +6,7 @@ import java.io.IOException;
 
 //27340847
 public class Day6Problem2 {
-	
+
 	public static void main(String[] args) {
 		BufferedReader reader;
 		String path = "src/main/resources/sample6.txt";
@@ -41,5 +41,5 @@ public class Day6Problem2 {
 
 		System.out.println("for time " + time + " count is " + count);
 	}
-	
+
 }

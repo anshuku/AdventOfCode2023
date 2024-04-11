@@ -9,7 +9,7 @@ import java.util.List;
 
 //79842967
 public class Day3Problem2 {
-	
+
 	public static void main(String[] args) {
 		BufferedReader reader;
 		String fileName = "src/main/resources/sample3.txt";
@@ -44,9 +44,9 @@ public class Day3Problem2 {
 		} catch (IOException e) {
 			throw new RuntimeException(e);
 		}
-		
+
 	}
-	
+
 	public static int checkNumNearAsterisk(int lineNum, int begin, int end, List<List<String>> numLists,
 			List<String> numList) {
 		int product = 1, num = 0;
@@ -193,7 +193,5 @@ public class Day3Problem2 {
 		System.out.println("Line :" + lineNum + " count is " + numsToMultiply.size() + " product is " + product);
 		return product;
 	}
-
-	
 
 }

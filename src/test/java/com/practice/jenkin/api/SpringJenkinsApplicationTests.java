@@ -1921,7 +1921,7 @@ class SpringJenkinsApplicationTests {
 			}
 
 		} catch (IOException e) {
-
+			e.printStackTrace();
 		}
 		System.out.println("instruction is " + instructions + " map " + map);
 
@@ -1995,7 +1995,7 @@ class SpringJenkinsApplicationTests {
 			}
 
 		} catch (IOException e) {
-
+			e.printStackTrace();
 		}
 		System.out.println("instruction is " + instructions + " map " + map);
 		System.out.println("nodesEndWithA is " + nodesEndWithAList);
@@ -2132,7 +2132,7 @@ class SpringJenkinsApplicationTests {
 			}
 			
 		} catch (IOException e) {
-			
+			e.printStackTrace();
 		}
 		System.out.println("sequenceList is " + sequenceList);
 		
@@ -2203,7 +2203,7 @@ class SpringJenkinsApplicationTests {
 			}
 			
 		} catch (IOException e) {
-			
+			e.printStackTrace();
 		}
 		System.out.println("sequenceList is " + sequenceList);
 		
@@ -2283,10 +2283,8 @@ class SpringJenkinsApplicationTests {
 			}
 			
 		} catch(IOException e) {
-			
+			e.printStackTrace();
 		}
-		
-		
 	}
 	
 	@Ignore
@@ -2312,10 +2310,8 @@ class SpringJenkinsApplicationTests {
 			}
 			
 		} catch(IOException e) {
-			
+			e.printStackTrace();
 		}
-		
-		
 	}
 	
 	@Ignore
